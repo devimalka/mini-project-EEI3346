@@ -1,15 +1,26 @@
-.main-title{
+.main-title {
     color: #1650CF;
     text-align: center;
 }
 
-.nav{
+.nav {
     border: pink solid 2px;
 }
 
-.nav ul li{
-   list-style-type: none;
-   display: inline;
-   margin: 0;
-   padding: 0;
+.nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-div {
+    border: pink solid 2px;
+}
+
+.welcome-div img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
 }
