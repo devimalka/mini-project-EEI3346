@@ -4,15 +4,23 @@
 }
 
 .nav {
+    display: block;
     border: pink solid 2px;
+    overflow: hidden;
 }
 
-.nav ul li {
+/*.nav ul li {
     list-style-type: none;
     display: inline;
     margin: 0;
     padding: 0;
 }
+*/
+
+.nav div{
+    display: inline-block;
+}
+
 
 .welcome-div {
     border: pink solid 2px;
@@ -33,4 +41,49 @@
     background-color: red;
     color: white;
     text-align: center;
+}
+
+
+.dropdown:hover, .dropbtn:hover{
+    background-color: red;
+}
+
+.dropdown {
+    
+}
+
+.dropdown .dropbtn{
+    font-size: 16px ;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+
+}
+
+.dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: green;
+  
+    
 }
