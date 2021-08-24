@@ -4,7 +4,8 @@
 }
 
 .nav {
-    display: block;
+    display: flex;
+    flex-direction: row;
     border: pink solid 2px;
     overflow: hidden;
 }
@@ -18,9 +19,12 @@
 */
 
 .nav div{
-    display: inline-block;
+    display: block;
 }
 
+.nav a{
+    padding: 14px 16px;
+}
 
 .welcome-div {
     border: pink solid 2px;
@@ -49,6 +53,7 @@
 }
 
 .dropdown {
+    
     
 }
 
@@ -87,3 +92,4 @@
   
     
 }
+
