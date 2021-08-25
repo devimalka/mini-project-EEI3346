@@ -76,8 +76,8 @@ body{
 }
 
 .myslide img{
-    width: 50%;
-    height: 50%;
+    width: 500px;
+    height: 500px;
 }
 
 .slideshow-container{
@@ -163,7 +163,7 @@ body{
 
 footer{
     position: relative;
-    width: auto;
+    
     height: auto;
     padding: 50px 100px;
     background: #111;
@@ -266,7 +266,7 @@ footer p{
 .copyright{
     background: #181818;
     text-align: center;
-    width: 100%;
+    
     padding: 8px 100px;
     color: #999;
 }
