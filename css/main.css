@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-size: cover;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -61,11 +63,6 @@ nav{
 
 
 
-.content{
-    display: flex;
-    height: 50vh;
-}
-
 
 
 
@@ -73,35 +70,41 @@ nav{
 
 
 .intro{
-    font-weight: 900;
-    font-size: 3.5em;
+    font-weight: 600;
+    font-size: 2.5em;
 }
 
 
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.content{
+    display: block;
+    justify-content: center;
 }
-
-    body{
-    background: #EEE
-}
-
-    #str {
-   width: 800px;
-   padding: 20px;
-   height: auto;
+ #str {
+   width: auto;
+   display: block;
    font-family: sans-serif;
-   font-size: 40px;
-   margin: 200px auto;
+   font-size: 20px;
+   margin: auto auto;
    color: #fff;
    font-weight: bold;
-   background: #000
+   background: #000;
+   
+   
 }
 
+.articles{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 30px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+}
 
 
 
