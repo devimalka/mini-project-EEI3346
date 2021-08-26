@@ -103,7 +103,7 @@ body {
 
 .overlay {
 	background-color: var(--lightblue);
-	background: url("https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg");
+	background: url(/images/background.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -208,5 +208,13 @@ body {
 	100% {
 		opacity: 1;
 		z-index: 5;
+	}
+}
+
+
+@media all and (max-width:500px){
+	.btn{
+		font-size: 0.8em;
+		padding: 0.2rem 2rem;
 	}
 }
