@@ -44,3 +44,12 @@ function showSlides(n){
 //     slides[slideIndex-1].style.display = "block";
 //     setTimeout(showSlides,5000);
 // }
+
+
+var string = "Hello I'm Laith Haleem Form Ghammas Love Developing Websites";
+var str = string.split("");
+var el = document.getElementById('str');
+(function animate() {
+str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running); 
+var running = setTimeout(animate, 90);
+})();
