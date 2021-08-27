@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/apply.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+    
+    <script>
+        $(function () {
+            $(".toggle").on("click", function () {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                }
+                else {
+                    $(".item").addClass("active");
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="index.html">Tech Mentors</a></li>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="">Updates</a></li>
+            <li class="item"><a href="">News</a></li>
+            <li class="item"><a href="">Courses</a></li>
+            <li class="item button"><a href="login.html">Login</a></li>
+            <li class="toggle"><span class="bars"><i class="fa fa-toggle-on" aria-hidden="true"></i>
+                </span></li>
+        </ul>
+
+    </nav>
+
+    <div class="register">
+        <div class="container">
+        <div class="title">Apply Online</div>
+        <form action="">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Eneter Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Eneter Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Address</span>
+                    <input type="text" placeholder="Eneter Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Dob</span>
+                    <input type="text" placeholder="Eneter Name" required>
+                </div>
+            </div>
+           <div class="gender-details">
+               <input type="radio" name="gender" id="dot-1">
+               <input type="radio" name="gender" id="dot-2">
+               <input type="radio" name="gender" id="dot-3">
+
+               <span class="gender-title">Gender</span>
+               <div class="category">
+                   <label for="dot-1">
+                       <span class="dot one"></span>
+                       <span class="gender">Male</span>
+                   </label>
+                   <label for="dot-2">
+                    <span class="dot one"></span>
+                    <span class="gender">Female</span>
+                </label>
+                <label for="dot-3">
+                    <span class="dot one"></span>
+                    <span class="gender">Other</span>
+                </label>
+               </div>
+           </div>
+           <div class="submit">
+            <input type="submit" value="Register"> 
+           </div>
+        </form>
+    </div>
+</div>
+    
+</body>
+</html>
