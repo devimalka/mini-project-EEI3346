@@ -215,6 +215,9 @@ border-radius: 20px;
     }
 }
 
+#container div{
+    padding-bottom: 20px;
+}
 footer{
     background: black;
     width: 100%;

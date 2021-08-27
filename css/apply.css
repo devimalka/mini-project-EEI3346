@@ -158,7 +158,7 @@ a:hover {
 .container{
     max-width: 700px;
     width: 100%;
-    background-color: crimson;
+    background-color: rgb(228, 212, 215);
     padding: 25px 30px;
     border-radius: 5px;
 
@@ -235,6 +235,7 @@ align-items: center;
     border-radius: 50%;
     margin-right: 10px;
     border: 5px solid transparent;
+    transition: all 0.3s ease;
 }
 
 #dot-1:checked ~ .category label .one,
@@ -248,7 +249,21 @@ form input[type="radio"]{
     display: none;
 }
 
-form .button input{
+form .submit {
+   height: 45px;
+   margin: 45px 0;
+}
+
+form .submit input{
     width: 100%;
     height: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
 }
+
+

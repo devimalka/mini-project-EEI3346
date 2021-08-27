@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="css/course.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    
+	<link rel="stylesheet" href="css/about.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- navbar header -->
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="index.html">Tech Mentors</a></li>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="">Updates</a></li>
+            <li class="item"><a href="">News</a></li>
+            <li class="item"><a href="">Courses</a></li>
+            <li class="item button"><a href="login.html">Login</a></li>
+            <li class="toggle"><span class="bars"><i class="fa fa-toggle-on" aria-hidden="true"></i>
+                </span></li>
+        </ul>
+
+    </nav>
+    
+    <div id="fullpage">
+  
+      <!-- begin section -->
+  
+      <div class="section aboutme" data-anchor="aboutme">
+        <div class="opaque-bg animated fadeInDown">
+          <h1 style="color:white">TECH<span style="color:#FF6363">/</span>MENTORS</h1>
+          <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+        </div>
+        <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+      </div>
+      <!-- end section -->
+  
+      <!-- begin section -->
+  
+     
+      <!-- begin section -->
+  
+      <div class="section" data-anchor="projects">
+        <div class="content-slide">
+          <div class="slide">
+            <h1 class="wow fadeInDown" data-wow-delay="0.2s">About Us</h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">Know about us</p>
+          </div>
+          <div class="slide">
+            <h1>What we do</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nisi id nihil, quaerat ut repellat animi maxime excepturi saepe exercitationem maiores illum molestias neque laboriosam corporis veritatis delectus culpa. Qui.</p>
+          </div>
+          <div class="slide">
+            <h1>Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate ab, dolorum autem, quaerat architecto odio, aliquam laborum soluta nam cumque reiciendis beatae distinctio consectetur est molestiae vitae perspiciatis. Consectetur.</p>
+         
+        </div>
+      </div>
+      <!-- end section -->
+  
+      <!-- begin section -->
+  
+      <div class="section" data-anchor="contact">
+        <div class="content wow fadeInDown" data-wow-delay="0.2s">
+          <h1>CONTACT US</h1>
+          <p>Whether you're interested in or in any case inquery Us</p>
+          <br>
+          <div class="contact-form">
+  
+            <div id="form-messages"></div>
+            <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
+              <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
+                <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
+                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                <div class="help-block with-errors"></div>
+              </div>
+  
+              <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
+                <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
+                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                <div class="help-block with-errors"></div>
+              </div>
+  
+              <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
+                <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
+                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                <div class="help-block with-errors"></div>
+              </div>
+  
+              <div class="hidden">
+                <input type="text" class="form-control" id="human" name="human" placeholder="">
+              </div>
+              <div class="wow fadeInUp" data-wow-delay="1s">
+                <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
+              </div>
+            </form>
+            <br>
+          </div>
+        </div>
+      </div>
+      <!-- end section -->
+  
+      <!-- begin section -->
+  
+      <div class="section fp-auto-height">
+        <div class="footer">
+          <p>CONTACT US</p>
+          <div class="social-links">
+            
+          </div>
+        </div>
+      </div>
+      <!-- end section -->
+  
+    </div>
+    <script src="js/about.js"></script>
+  </body>
+</html>
